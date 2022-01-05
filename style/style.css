@@ -80,10 +80,6 @@ a {
 }
 
 
-.navbar {
-    /* background-color: #fff; */
-}
-
 .navbar-nav {
     gap: 30px;
 }
@@ -104,11 +100,3 @@ a {
 
 
 
-
-
-
-
-
-
-
-@import url('./media.css');
