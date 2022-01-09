@@ -1,0 +1,30 @@
+.main__title {
+    padding: clamp(30px,calc(50vw/14.4),60px) 0;
+    text-align: center;
+    background-color: rgba(0, 150, 255, 1);
+    color: #fff;
+}
+
+.service {
+    padding: 40px 0;
+}
+
+.service__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.service__title {
+    font-size: clamp(18px,calc(30vw/14.4),36px);
+    line-height: clamp(32px,calc(64vw/14.4),72px);
+    color: #000;
+    font-weight: 800;
+}
+
+.service__text {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(24, 25, 31, 1);
+
+}
