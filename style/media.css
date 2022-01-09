@@ -23,6 +23,18 @@
     .more__ball {
         display: none;
     }
+
+    .work__img {
+        transform: scale(1);
+    }
+    .work__title {
+        margin-top: 15px;
+    }
+
+
+    .depart__up {
+        padding: 0 10%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -60,9 +72,26 @@
     }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 576px) {
     .client__slide-high {
         transform: translateY(0);
+    }
+
+    .about__content-text {
+        text-align: justify;
+    }
+    .about__content-title,
+    .about__content-subtitle{
+        text-align: center;
+    }
+
+    .work__text {
+        text-align: justify;
+        padding: 0 15px;
+    }
+
+    .depart__up {
+        padding: 0 3%;
     }
 }
 

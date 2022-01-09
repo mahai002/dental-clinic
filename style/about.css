@@ -1,0 +1,90 @@
+.about {
+    padding: 40px 0;
+}
+.about__content {
+    padding-top: 20px;
+}
+.about__content-subtitle {
+    font-size: 800px;
+    font-size: clamp(20px,calc(30vw/14.4),34px);
+    line-height: clamp(32px,calc(64vw/14.4),38px);
+    color: #000;
+    margin-bottom: 10px;
+}
+.about__content-title {
+    font-weight: 800;
+    font-size: clamp(24px,calc(32vw/14.4),36px);
+    line-height: clamp(28px,calc(40vw/14.4),44px);
+    color: #000;
+}
+.about__content-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(24, 25, 31, 1);
+}
+
+.about__img img{
+    object-position: 15px 0;
+}
+
+
+
+.work {
+    padding: 40px 0;
+    background: rgba(240, 246, 251, 1);
+}
+
+.work__img {
+    transform: scale(1.4);
+}
+
+.work__title {
+    font-weight: 700;
+    color: #000;
+    font-size: clamp(24px,calc(36vw/14.4),42px);
+    line-height: clamp(32px,calc(64vw/14.4),70px);
+    margin-bottom: 20px;
+}
+.work__text {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(24, 25, 31, 1);
+
+}
+
+.depart {
+    padding: clamp(40px,calc(80vw/14.4),100px) 0 40px 0;
+}
+
+.depart__up {
+    padding: 0 20%;
+    margin-bottom: clamp(20px,calc(50vw/14.4),60px);
+}
+
+.depart__title {
+    font-weight: 700;
+    color: #000;
+    font-size: clamp(24px,calc(36vw/14.4),42px);
+    line-height: clamp(32px,calc(50vw/14.4),50px);
+    margin-bottom: 20px;
+}
+.depart__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+}
+
+
+.depart__card-title {
+    color: rgba(34, 150, 249, 1);
+    font-size: 700px;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 10px;
+}
+.depart__card-text {
+    color: #000;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 300;
+}
