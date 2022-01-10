@@ -56,6 +56,7 @@ a {
     color: #0096FF;
     font-size: 12px;
     line-height: 120%;
+    font-family: "MT-M";
 }
 
 
@@ -85,6 +86,7 @@ a {
 }
 
 .header__link {
+    font-family: "MP-B";
     font-size: 14px;
     font-weight: 700;
     color: #18191F;
@@ -101,6 +103,7 @@ a {
 
 
 .cards__title {
+    font-family: 'MP-EB';
     font-size: clamp(20px,calc(36vw/14.4),40px);
     line-height: clamp(24px,calc(64vw/14.4),74px);
     color: #000;
@@ -125,6 +128,14 @@ a {
     width: clamp(250px,calc(325vw/14.4),360px);
     height: clamp(170px,calc(200vw/14.4),250px);
     margin-top: clamp(20px,calc(50vw/14.4),60px);
+}
+
+.main__title {
+    padding: clamp(30px,calc(50vw/14.4),60px) 0;
+    text-align: center;
+    background-color: rgba(0, 150, 255, 1);
+    color: #fff;
+    font-family: 'H-B';
 }
 
 /* .cards__card:not(:nth-child(3n)){
@@ -177,6 +188,7 @@ a {
 }
 
 .cards__card-title {
+    font-family: "NS";
     font-size: clamp(20px,calc(36vw/14.4),40px);
     line-height: clamp(24px,calc(48vw/14.4),54px);
     color: #fff;
@@ -233,6 +245,7 @@ a {
 }
 
 .workers__title {
+    font-family: 'MP-EB';
     margin-bottom: clamp(15px,calc(30vw/14.4),40px);
     font-weight: 800;
     font-size: clamp(24px,calc(36vw/14.4),46px);
@@ -241,6 +254,7 @@ a {
 }
 
 .workers__name {
+    font-family: "MP-R";
     font-size: clamp(16px,calc(20vw/14.4),24px);
     line-height: clamp(18px,calc(24vw/14.4),28px);
     color: #000;
@@ -249,6 +263,7 @@ a {
 }
 
 .workers__subname {
+    font-family: "MP-B";
     text-transform: uppercase;
     font-size: clamp(16px,calc(18vw/14.4),22px);
     line-height: clamp(18px,calc(20vw/14.4),24px);
@@ -301,9 +316,15 @@ a {
     line-height: clamp(18px,calc(24vw/14.4),32px);
     margin-top: 5px;
 }
-
+.client__slide-name {
+    font-family: "MP-B";
+}
+.client__slide-subname {
+    font-family: "MP-R";
+    color: rgba(71, 74, 87, 1);
+}
 .client__title {
-    font-weight: 800;
+    font-family: 'MP-EB';
     font-size: clamp(24px,calc(36vw/14.4),42px);
     line-height: clamp(32px,calc(64vw/14.4),72px);
     text-align: center;
@@ -312,6 +333,7 @@ a {
 }
 
 .client__subtitle {
+    font-family: "MP-R";
     font-size: clamp(16px,calc(18vw/14.4),24px);
     line-height: clamp(18px,calc(24vw/14.4),30px);
     color: rgba(24, 25, 31, 1); 
@@ -319,11 +341,12 @@ a {
 }
 
 .client__slide-title {
-    font-weight: 600;
+    font-family: 'MP-SM';
     font-size: clamp(16px,calc(24vw/14.4),32px);
     line-height: clamp(20px,calc(28vw/14.4),36px);
 }
 .client__slide-text {
+    font-family: "MP-R";
     font-size: clamp(14px,calc(18vw/14.4),20px);
     line-height: clamp(16px,calc(20vw/14.4),24px);
     color: rgba(24, 25, 31, 1);
@@ -421,17 +444,20 @@ a {
 
 .footer__about-title,
 .footer__social-title {
+    font-family: "MP-R";
     font-size: clamp(12px,calc(20vw/14.4),24px);
     line-height: clamp(18px,calc(24vw/14.4),30px);
     margin-bottom: clamp(10px,calc(25vw/14.4),35px);
 }
 
 .footer__about-title {
+    font-family: "MP-R";
     margin-top: 15px;
 }
 
 .footer__about-text,
 .footer__details-title {
+    font-family: "MP-R";
     font-size: clamp(10px,calc(14vw/14.4),18px);
     line-height: clamp(14px,calc(18vw/14.4),24px);
 }
@@ -439,6 +465,7 @@ a {
 .footer__details-subtitle,
 .footer__social-name,
 .footer__icons-link {
+    font-family: "MP-R";
     font-size: clamp(10px,calc(14vw/14.4),18px);
     line-height: clamp(14px,calc(18vw/14.4),24px);
 }
@@ -446,4 +473,18 @@ a {
 .footer__social-card:not(:last-child), 
 .footer__icons-card:not(:last-child) {
     margin-bottom: clamp(12px,calc(20vw/14.4),24px);
+}
+
+
+.accordion .accordion-body *:not(svg) {
+    color: #000;
+}
+.accordion .accordion-body svg {
+    fill: #000;
+}
+.accordion .footer__details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
 }

@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../style/style.css">
-    <link rel="stylesheet" href="../style/service.css">
+    <link rel="stylesheet" href="../style/contact.css">
     <link rel="stylesheet" href="../style/media.css">
 </head>
 
@@ -36,7 +36,7 @@
                                     <a class="header__link" aria-current="page" href="../index.html">Главная</a>
                                 </li>
                                 <li>
-                                    <a class="header__link active" href="./service.html">Наши услуги</a>
+                                    <a class="header__link" href="./service.html">Наши услуги</a>
                                 </li>
                                 <li>
                                     <a class="header__link" href="./about.html">О Нас</a>
@@ -45,7 +45,7 @@
                                     <a class="header__link" href="./workers.html">Наши врачи</a>
                                 </li>
                                 <li>
-                                    <a class="header__link" href="./contact.html">Контакты</a>
+                                    <a class="header__link active" href="#">Контакты</a>
                                 </li>
                             </ul>
                         </div>
@@ -54,105 +54,168 @@
             </nav>
         </header>
         <main class="main">
-            <h2 class="main__title">Наши Услуги</h2>
-            <div class="service">
+            <h2 class="main__title">Our Contact</h2>
+            <div class="contact">
                 <div class="container-md">
-                    <div class="service__body">
-                        <div class="service__desc col-12 col-sm-10 col-md-6">
-                            <h2 class="service__title">Наши Услуги</h2>
-                            <p class="service__text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book. It has survived not only five centuries, but also the leap into electronic
-                                typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                                release of Letraset sheets containing Lorem Ipsum passages, and more recently with
-                                desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <div class="contact__body d-flex flex-column flex-wrap">
+                        <div
+                            class="contact__cards col-12 d-flex gap-4 gap-md-0 justify-content-around justify-content-md-between flex-wrap">
+                            <div
+                                class="contact__card text-center col-sm-5 col-10 col-md-3 d-flex flex-column align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 3c2.131 0 4 1.73 4 3.702 0 2.05-1.714 4.941-4 8.561-2.286-3.62-4-6.511-4-8.561 0-1.972 1.869-3.702 4-3.702zm0-2c-3.148 0-6 2.553-6 5.702 0 3.148 2.602 6.907 6 12.298 3.398-5.391 6-9.15 6-12.298 0-3.149-2.851-5.702-6-5.702zm0 8c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zm8 6h-3.135c-.385.641-.798 1.309-1.232 2h3.131l.5 1h-4.264l-.344.544-.289.456h.558l.858 2h-7.488l.858-2h.479l-.289-.456-.343-.544h-2.042l-1.011-1h2.42c-.435-.691-.848-1.359-1.232-2h-3.135l-4 8h24l-4-8zm-12.794 6h-3.97l1.764-3.528 1.516 1.528h1.549l-.859 2zm8.808-2h3.75l1 2h-3.892l-.858-2z" />
+                                </svg>
+                                <h2 class="contact__card-title">Address</h2>
+                                <span class="contact__card-subtitle">A-655 Karol bagh, Near Delhi 93 </span>
+                            </div>
+                            <div
+                                class="contact__card text-center col-sm-5 col-10 col-md-3 d-flex flex-column align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path
+                                        d="M3.59 1.322l2.844-1.322 4.041 7.89-2.725 1.341c-.538 1.259 2.159 6.289 3.297 6.372.09-.058 2.671-1.328 2.671-1.328l4.11 7.932s-2.764 1.354-2.854 1.396c-7.861 3.591-19.101-18.258-11.384-22.281zm1.93 1.274l-1.023.504c-5.294 2.762 4.177 21.185 9.648 18.686l.971-.474-2.271-4.383-1.026.5c-3.163 1.547-8.262-8.219-5.055-9.938l1.007-.497-2.251-4.398zm7.832 7.649l2.917.87c.223-.747.16-1.579-.24-2.317-.399-.739-1.062-1.247-1.808-1.469l-.869 2.916zm1.804-6.059c1.551.462 2.926 1.516 3.756 3.051.831 1.536.96 3.263.498 4.813l-1.795-.535c.325-1.091.233-2.306-.352-3.387-.583-1.081-1.551-1.822-2.643-2.146l.536-1.796zm.95-3.186c2.365.705 4.463 2.312 5.729 4.656 1.269 2.343 1.466 4.978.761 7.344l-1.84-.548c.564-1.895.406-4.006-.608-5.882-1.016-1.877-2.696-3.165-4.591-3.729l.549-1.841z" />
+                                </svg>
+                                <h2 class="contact__card-title">Contact Info</h2>
+                                <span class="contact__card-subtitle">Email : techwero@gmail.com</span>
+                                <span class="contact__card-subtitle">Phone : +61 3 8376 6284</span>
+                            </div>
+                            <div
+                                class="contact__card text-center col-sm-5 col-10 col-md-3 d-flex flex-column align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm5.848 12.459c.202.038.202.333.001.372-1.907.361-6.045 1.111-6.547 1.111-.719 0-1.301-.582-1.301-1.301 0-.512.77-5.447 1.125-7.445.034-.192.312-.181.343.014l.985 6.238 5.394 1.011z" />
+                                </svg>
+                                <h2 class="contact__card-title">Address</h2>
+                                <span class="contact__card-subtitle">Monday – Friday : 09:00 – 20:00</span>
+                                <span class="contact__card-subtitle">Sunday & Saturday: 10:30 – 22:00</span>
+                            </div>
                         </div>
-                        <div class="service__img col-12 col-sm-6 col-md-5">
-                            <img class="w-100" src="../img/./workers-intro-img.png" alt="">
+                        <div class="contact__map col-12">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.2106735107595!2d69.28410435342307!3d41.30596896638359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8ad59297d1cf%3A0xda0402847aed7b96!2z0JzQtdC20LTRg9C90LDRgNC-0LTQvdGL0Lkg0JLQtdGB0YLQvNC40L3RgdGC0LXRgNGB0LrQuNC5INCj0L3QuNCy0LXRgNGB0LjRgtC10YIg0LIg0KLQsNGI0LrQtdC90YLQtQ!5e0!3m2!1sru!2s!4v1641795262491!5m2!1sru!2s"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="cards">
+            <div class="client">
                 <div class="container-md">
-                    <div class="cards__body">
-                        <h2 class="cards__title">Услуги нашей клиники</h2>
-                        <ul class="cards__list">
-                            <li class="cards__card">
-                                <div class="cards__card-img">
-                                    <img src="../img/card-img-1.jpg" alt="">
+                    <div class="client__body">
+                        <h2 class="client__title">Отызы наших клиентов</h2>
+                        <p class="client__subtitle">We have been working with clients around the world</p>
+                        <div class="client__slider">
+                            <div class="client__wrapper d-flex justify-content-between">
+                                <div class="client__slide d-flex flex-column col-3">
+                                    <div class="client__slide-up">
+                                        <h2 class="client__slide-title">Lorem Ipsum is simply dummy text</h2>
+                                        <p class="client__slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+                                    </div>
+                                    <div class="client__slide-down">
+                                        <img src="../img/client-1.png" alt="" class="client__slide-img">
+                                        <h2 class="client__slide-name">Jane Cooper</h2>
+                                        <p class="client__slide-subname">CEO at ABC Corporation</p>
+                                    </div>
                                 </div>
-                                <a href="" class="cards__link">
-                                    <span class="cards__card-title">Детская <br> стоматология</span>
-                                </a>
-                            </li>
-                            <li class="cards__card">
-                                <div class="cards__card-img">
-                                    <img src="../img/card-img-1.jpg" alt="">
+                                <div class="client__slide client__slide-high d-flex flex-column col-3">
+                                    <div class="client__slide-up">
+                                        <h2 class="client__slide-title">Lorem Ipsum is simply dummy text</h2>
+                                        <p class="client__slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+                                    </div>
+                                    <div class="client__slide-down">
+                                        <img src="../img/client-1.png" alt="" class="client__slide-img">
+                                        <h2 class="client__slide-name">Jane Cooper</h2>
+                                        <p class="client__slide-subname">CEO at ABC Corporation</p>
+                                    </div>
                                 </div>
-                                <a href="" class="cards__link">
-                                    <span class="cards__card-title">Детская <br> стоматология</span>
-                                </a>
-                            </li>
-                            <li class="cards__card">
-                                <div class="cards__card-img">
-                                    <img src="../img/card-img-1.jpg" alt="">
+                                <div class="client__slide d-flex flex-column col-3">
+                                    <div class="client__slide-up">
+                                        <h2 class="client__slide-title">Lorem Ipsum is simply dummy text</h2>
+                                        <p class="client__slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+                                    </div>
+                                    <div class="client__slide-down">
+                                        <img src="../img/client-1.png" alt="" class="client__slide-img">
+                                        <h2 class="client__slide-name">Jane Cooper</h2>
+                                        <p class="client__slide-subname">CEO at ABC Corporation</p>
+                                    </div>
                                 </div>
-                                <a href="" class="cards__link">
-                                    <span class="cards__card-title">Детская <br> стоматология</span>
-                                </a>
-                            </li>
-                            <li class="cards__card">
-                                <div class="cards__card-img">
-                                    <img src="../img/card-img-1.jpg" alt="">
+                                <div class="client__slide d-flex flex-column col-3">
+                                    <div class="client__slide-up">
+                                        <h2 class="client__slide-title">Lorem Ipsum is simply dummy text</h2>
+                                        <p class="client__slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+                                    </div>
+                                    <div class="client__slide-down">
+                                        <img src="../img/client-1.png" alt="" class="client__slide-img">
+                                        <h2 class="client__slide-name">Jane Cooper</h2>
+                                        <p class="client__slide-subname">CEO at ABC Corporation</p>
+                                    </div>
                                 </div>
-                                <a href="" class="cards__link">
-                                    <span class="cards__card-title">Детская <br> стоматология</span>
-                                </a>
-                            </li>
-                            <li class="cards__card">
-                                <div class="cards__card-img">
-                                    <img src="../img/card-img-1.jpg" alt="">
+                                <div class="client__slide client__slide-high d-flex flex-column col-3">
+                                    <div class="client__slide-up">
+                                        <h2 class="client__slide-title">Lorem Ipsum is simply dummy text</h2>
+                                        <p class="client__slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+                                    </div>
+                                    <div class="client__slide-down">
+                                        <img src="../img/client-1.png" alt="" class="client__slide-img">
+                                        <h2 class="client__slide-name">Jane Cooper</h2>
+                                        <p class="client__slide-subname">CEO at ABC Corporation</p>
+                                    </div>
                                 </div>
-                                <a href="" class="cards__link">
-                                    <span class="cards__card-title">Детская <br> стоматология</span>
-                                </a>
-                            </li>
-                            <li class="cards__card">
-                                <div class="cards__card-img">
-                                    <img src="../img/card-img-1.jpg" alt="">
+                                <div class="client__slide d-flex flex-column col-3">
+                                    <div class="client__slide-up">
+                                        <h2 class="client__slide-title">Lorem Ipsum is simply dummy text</h2>
+                                        <p class="client__slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+                                    </div>
+                                    <div class="client__slide-down">
+                                        <img src="../img/client-1.png" alt="" class="client__slide-img">
+                                        <h2 class="client__slide-name">Jane Cooper</h2>
+                                        <p class="client__slide-subname">CEO at ABC Corporation</p>
+                                    </div>
                                 </div>
-                                <a href="" class="cards__link">
-                                    <span class="cards__card-title">Детская <br> стоматология</span>
-                                </a>
-                            </li>
-                            <li class="cards__card">
-                                <div class="cards__card-img">
-                                    <img src="../img/card-img-1.jpg" alt="">
+                                <div class="client__slide d-flex flex-column col-3">
+                                    <div class="client__slide-up">
+                                        <h2 class="client__slide-title">Lorem Ipsum is simply dummy text</h2>
+                                        <p class="client__slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+                                    </div>
+                                    <div class="client__slide-down">
+                                        <img src="../img/client-1.png" alt="" class="client__slide-img">
+                                        <h2 class="client__slide-name">Jane Cooper</h2>
+                                        <p class="client__slide-subname">CEO at ABC Corporation</p>
+                                    </div>
                                 </div>
-                                <a href="" class="cards__link">
-                                    <span class="cards__card-title">Детская <br> стоматология</span>
-                                </a>
-                            </li>
-                            <li class="cards__card">
-                                <div class="cards__card-img">
-                                    <img src="../img/card-img-1.jpg" alt="">
+                                <div class="client__slide client__slide-high d-flex flex-column col-3">
+                                    <div class="client__slide-up">
+                                        <h2 class="client__slide-title">Lorem Ipsum is simply dummy text</h2>
+                                        <p class="client__slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+                                    </div>
+                                    <div class="client__slide-down">
+                                        <img src="../img/client-1.png" alt="" class="client__slide-img">
+                                        <h2 class="client__slide-name">Jane Cooper</h2>
+                                        <p class="client__slide-subname">CEO at ABC Corporation</p>
+                                    </div>
                                 </div>
-                                <a href="" class="cards__link">
-                                    <span class="cards__card-title">Детская <br> стоматология</span>
-                                </a>
-                            </li>
-                            <li class="cards__card">
-                                <div class="cards__card-img">
-                                    <img src="../img/card-img-1.jpg" alt="">
+                                <div class="client__slide d-flex flex-column col-3">
+                                    <div class="client__slide-up">
+                                        <h2 class="client__slide-title">Lorem Ipsum is simply dummy text</h2>
+                                        <p class="client__slide-text">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+                                    </div>
+                                    <div class="client__slide-down">
+                                        <img src="../img/client-1.png" alt="" class="client__slide-img">
+                                        <h2 class="client__slide-name">Jane Cooper</h2>
+                                        <p class="client__slide-subname">CEO at ABC Corporation</p>
+                                    </div>
                                 </div>
-                                <a href="" class="cards__link">
-                                    <span class="cards__card-title">Детская <br> стоматология</span>
-                                </a>
-                                <span class="cards__wr"></span>
-                            </li>
-                        </ul>
+                            </div>
+                            <div class="client__pagination d-flex justify-content-center align-items-center"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -346,7 +409,6 @@
             </div>
         </footer>
     </div>
-
 
 
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>

@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "MT-M";
+    src: url('../fonts/montserrat-alternates/MontserratAlternates-Medium.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: "MP-B";
+    src: url('../fonts/manrope/manrope-Bold.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: "MP-R";
+    src: url('../fonts/manrope/Manrope-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'MP-EB';
+    src: url('../fonts/manrope/manrope-ExtraBold.ttf');
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'NS';
+    src: url('../fonts/nexa-script.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'MP-SM';
+    src: url('../fonts/manrope/manrope-SemiBold.ttf');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'H-B';
+    src: url('../fonts/helvetica/helvetica_bold.otf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'H-R';
+    src: url('../fonts/helvetica/helvetica_regular.otf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'H-L';
+    src: url('../fonts/helvetica/helvetica_light.otf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'R-M';
+    src: url('../fonts/roboto/Roboto-Medium.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'R-R';
+    src: url('../fonts/roboto/Roboto-Medium.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'R-B';
+    src: url('../fonts/roboto/Roboto-Medium.ttf');
+    font-weight: 700;
+}

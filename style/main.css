@@ -16,6 +16,7 @@ h2,ul {
     margin: 0;
 }
 
+
 .intro__body {
     position: relative;
     /* z-index: 1; */
@@ -33,6 +34,7 @@ h2,ul {
 }
 
 .intro__uptitle {
+    font-family: "MP-R";
     font-size: clamp(18px,calc(24vw/14.4),32px);
     line-height: clamp(24px,calc(32vw/14.4),36px);
     color: #0096FF;
@@ -40,6 +42,7 @@ h2,ul {
 }
 
 .intro__title {
+    font-family: 'MP-EB';
     color: #18191F;
     font-size: clamp(24px,calc(40vw/14.4),50px);
     line-height: clamp(30px,calc(50vw/14.4),60px);
@@ -48,12 +51,14 @@ h2,ul {
 
 
 .intro__subtitle {
+    font-family: "MP-R";
     font-size: clamp(16px,calc(18vw/14.4),24px);
     line-height: clamp(18px,calc(32vw/14.4),36px);
     margin-bottom: 15px;
 }
 
 .intro__btn {
+    font-family: "MP-R";
     border-radius: 10px;
     border: none;
     background: #0096FF;
@@ -96,6 +101,7 @@ h2,ul {
 }
 
 .more__title {
+    font-family: "MP-B";
     text-transform: uppercase;
     font-weight: 700;
     font-size: clamp(16px,calc(20vw/14.4),24px);
@@ -106,6 +112,7 @@ h2,ul {
 }
 
 .more__card-title {
+    font-family: "MP-R";
     font-size: clamp(16px,calc(20vw/14.4),24px);
     line-height: clamp(18px,calc(28vw/14.4),32px);
     margin-bottom: 5px;
@@ -113,6 +120,7 @@ h2,ul {
 }
 
 .more__card-text {
+    font-family: "MP-R";
     font-size: clamp(14px,calc(16vw/14.4),20px);
     line-height: clamp(16px,calc(20vw/14.4),24px);
     color: #000;
