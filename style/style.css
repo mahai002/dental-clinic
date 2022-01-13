@@ -596,7 +596,7 @@ a {
 }
 
 .share-widget-sub .share-widget-title {
-    width: auto;
+    width: inherit;
     height: auto;
     display: initial;
     justify-content: start;
