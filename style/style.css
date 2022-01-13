@@ -655,18 +655,19 @@ a {
 
 
 
+.gallery {
+    padding: 40px 0;
+}
 
 .gallery__link {
     padding: 5px;
 }
-.lg-thumb-outer {
-    display: flex;
-    justify-content: center;
-}
+
 .gallery__title {
     font-family: 'MP-EB';
-    margin-bottom: 30px;
-    line-height: 64px;
+    margin-bottom: clamp(24px,calc(30vw/14.4),34px);
+    font-size: clamp(24px,calc(30vw/14.4),34px);
+    line-height: clamp(32px,calc(64vw/14.4),70px);
     color: rgba(24, 25, 31, 1);
     text-align: center;
 
