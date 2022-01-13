@@ -1,6 +1,6 @@
-window.addEventListener('DOMContentLoaded',()=>{
+window.addEventListener('DOMContentLoaded', () => {
     if (document.querySelector('.client__slider')) {
-        let clientSlider = new Swiper('.client__slider',{
+        let clientSlider = new Swiper('.client__slider', {
             wrapperClass: 'client__wrapper',
             slideClass: 'client__slide',
             slidesPerView: 1,
@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded',()=>{
                 type: 'bullets',
                 bulletClass: 'client__pagination-bullet',
                 bulletActiveClass: 'client__pagination-bullet-active',
-              },
+            },
             breakpoints: {
                 550: {
                     slidesPerView: 3,
@@ -19,8 +19,8 @@ window.addEventListener('DOMContentLoaded',()=>{
                     slidesPerGroup: 3,
                 }
             }
-    
-        });   
+
+        });
     }
     let shareWidgies = document.querySelectorAll('.share-widget:not(.full) .share-widget-sub');
     shareWidgies.forEach(el => {
@@ -33,7 +33,7 @@ window.addEventListener('DOMContentLoaded',()=>{
         });
     });
     if (document.querySelector('.modal__slider')) {
-        let modalSlider = new Swiper('.modal__slider',{
+        let modalSlider = new Swiper('.modal__slider', {
             wrapperClass: 'modal__slider-wrapper',
             slideClass: 'modal__slide',
             slideActiveClass: 'modal__slide-active',
@@ -49,10 +49,25 @@ window.addEventListener('DOMContentLoaded',()=>{
                 }
             },
             centeredSlides: true
-        });   
+        });
     }
     if (document.getElementById('lightgallery')) {
-        lightGallery(document.getElementById('lightgallery')); 
+        lightGallery(document.getElementById('lightgallery'));
+    }
+
+    const nav = document.querySelector('.navbar');
+    if (document.querySelector('.banner')) {
+        const extra = document.querySelector('.banner');
+        window.addEventListener('scroll',() => {
+            if (window.scrollY > extra.clientHeight) {
+                extra.classList.add('remove');
+                nav.classList.add('top');
+            } else {
+                extra.classList.remove('remove');
+                nav.classList.remove('top');
+            }
+        });
+        
     }
 
 })
