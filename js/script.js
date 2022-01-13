@@ -47,4 +47,7 @@ window.addEventListener('DOMContentLoaded',()=>{
         },
         centeredSlides: true
     });
+
+    lightGallery(document.getElementById('lightgallery')); 
+
 })
