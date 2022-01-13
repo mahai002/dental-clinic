@@ -670,6 +670,10 @@ a {
     padding: 5px;
 }
 
+.gallery__link img {
+    object-fit: cover;
+}
+
 .gallery__title {
     font-family: 'MP-EB';
     margin-bottom: clamp(24px,calc(30vw/14.4),34px);
