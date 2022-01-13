@@ -667,11 +667,17 @@ a {
 }
 
 .gallery__link {
-    padding: 5px;
+    display: block;
+    position: relative;
+    height: 270px;
 }
 
 .gallery__link img {
+    padding: 5px;
     object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .gallery__title {
