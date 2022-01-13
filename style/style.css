@@ -689,3 +689,17 @@ a {
     text-align: center;
 
 }
+
+.galley__btn {
+    font-family: "'MP-R'";
+    display: flex;
+    width: max-content;
+    margin: 20px auto 0 auto;
+    padding: 10px 20px;
+    background-color: hsl(205deg 100% 50%);
+    color: #fff;
+    border-radius: 5px;
+}
+.galley__btn:hover {
+    color: #fff;
+}
