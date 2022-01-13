@@ -429,7 +429,7 @@ a {
 
 
 .footer {
-    padding: 20px 0 40px 0;
+    padding: 20px 0 80px 0;
     background-color: #0096FF;
     color: #fff;
 }
@@ -491,6 +491,13 @@ a {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
+}
+
+.accordion-button {
+    font-family: "MP-R";
+    font-size: 24px;
+    line-height: 32px;
+    color: #000;
 }
 
 
