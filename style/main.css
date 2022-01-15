@@ -57,6 +57,11 @@ h2,ul {
     /* z-index: 1; */
 }
 
+.intro__img {
+    position: relative;
+    z-index: 1;
+}
+
 .intro__ball {
     width: clamp(240px,calc(720vw/14.4),800px);
     height: clamp(240px,calc(720vw/14.4),800px);

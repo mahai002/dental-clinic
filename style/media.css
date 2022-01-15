@@ -51,6 +51,24 @@
     .service__text {
         text-align: justify;
     }
+
+    .modal-block_img {
+        position: relative;
+        width: 100%;
+        height: clamp(100px,calc(300vw/14.4),400px);
+    }
+    .modal-block_img img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .navbar {
+        top: 0;
+    }
 }
 
 @media (max-width: 676px) {
